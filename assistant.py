@@ -185,13 +185,12 @@ def process_text(input):
 			return
 
 		elif "who are you" in input or "define yourself" in input: 
-			speak = '''Hello, mai ek machine hoon, ek personal assistant ke jaisa jo aake Zindagi ko aashan bnaeyga, agar aap mujhe command doge
-			to main aapka help karungi'''
+			speak = '''Hello, I am a Personal Voice Assistant. How can I help you'''
 			machine_speak(speak) 
 			return
 
 		elif "who made you" in input or "created you" in input: 
-			speak = "I have been created by Shubham Madhesiya."
+			speak = "I have been created by Ayush Gupta."
 			machine_speak(speak) 
 			return
 
